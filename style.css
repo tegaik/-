@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+h1{
+    padding: 50px;
+    margin: 0px;
+}
+
+.text{
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    height: 300px;/*высота блока*/
+    background-color: aqua;/*цвет фона*/
+    color: brown; /*цвет текста*/
+    text-align: center;
+    font-size: 30px;
+    background-image: url(https://coffeelb.ru/upload/medialibrary/460/460f217f31d26b991597e3aba179b63c.jpg);
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 5px 20px black;
+
+}
+main{
+    height: 100%;
+    background-color: rgb(190, 147, 230);
+    color: aquamarine;
+    display: flex;
+   
+    
+}
+
+
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+}
+
+
+
+footer{
+    height: 350px;
+    background-color: blue;
+    color: rgb(109, 18, 18);
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.social img{
+width: 100px;
+padding-left: 10px;
+}
+.social{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
